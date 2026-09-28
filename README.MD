@@ -25,4 +25,4 @@ Actividad3/
 
 ## Captura de Pantalla
 
-![Demostración del componente](img/demo.png)
+![Demostración del componente](img/DEMO.png)
