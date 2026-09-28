@@ -1,6 +1,6 @@
 # Componente Visual: Ventana Modal en JS
 
-**Alumna:** GARCIA CISNEROS JONATHAN JULIAN  
+**Alumno:** GARCIA CISNEROS JONATHAN JULIAN  
 **Materia:** Programación Web  
 
 ## Descripción
