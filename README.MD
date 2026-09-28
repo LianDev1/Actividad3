@@ -21,6 +21,7 @@ Actividad3/
 │   └── demo.png
 ├── index.html
 └── README.md
+```
 
 ## Captura de Pantalla
 
