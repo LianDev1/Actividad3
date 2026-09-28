@@ -1,0 +1,120 @@
+/* Estilos base del modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-box {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 90%;
+  max-width: 480px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #6b7280;
+  padding: 0 4px;
+}
+
+.modal-close:hover {
+  color: #111827;
+}
+
+.modal-body {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-btn {
+  padding: 8px 14px;
+  font-size: 0.875rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.modal-btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.modal-btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.modal-btn-secondary {
+  background-color: #f3f4f6;
+  border-color: #d1d5db;
+  color: #374151;
+}
+
+.modal-btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+.modal-btn-danger {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.modal-btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+.modal-btn-success {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+.modal-btn-success:hover {
+  background-color: #15803d;
+}
